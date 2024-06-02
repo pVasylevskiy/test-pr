@@ -1,0 +1,105 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page {
+  margin: 0;
+  background: rgb(221, 221, 221);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  opacity: 80%;
+}
+.header__container-logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.header__logo {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.header__icons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.nav__item {
+  margin: 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  padding-block: 15px;
+}
+
+.icon {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-size: 27px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(225, 225, 225);
+  transition: all 0.5s;
+}
+.icon__link {
+  display: block;
+  height: 32px;
+  width: 32px;
+  padding: 5px;
+}
+.icon--inst {
+  display: block;
+  background-image: url(./images/instagram.png);
+}
+.icon--inst:hover {
+  background: url(./images/instagram.png), rgb(255, 95, 122);
+  background-size: 27px, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  transform: translate(0, -5px);
+}
+.icon--telegram {
+  background-image: url(./images/telegram.png);
+}
+.icon--telegram:hover {
+  background: url(./images/telegram.png), #24A1DE;
+  background-size: 27px, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  transform: translate(0, -5px);
+}
+.icon--whats {
+  background-image: url(./images/whatsapp.png);
+}
+.icon--whats:hover {
+  background: url(./images/whatsapp.png), #25d366;
+  background-size: 27px, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  transform: translate(0, -5px);
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
